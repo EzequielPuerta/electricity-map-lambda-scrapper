@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lambda-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["Armando Ezequiel Puerta <armando.ezequiel.puerta@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lambda_scrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
